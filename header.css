@@ -4,15 +4,14 @@
     background-image: url(Menu\ .svg);
     background-repeat: no-repeat;
     background-position: center;
-    display: inline-block;
-}
-
+    display: inline-block;}
 .cabecalho { background-color: var(--branco);
             display: flex;
             justify-content: space-between;
             align-items: center;}
-
 .conteiner{display: flex;
     align-items: center;}
-
 .conteiner__imagem { padding: 1em; }
+.lista-menu{display: flex;
+           position:absolute;
+           top: 100%;}   
